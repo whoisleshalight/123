@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>HomePage</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250606163936">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			overflow: hidden;
+			background-color: #e0e0e0;
+		}
+
+		.cursor,
+		.fixed-text,
+		header,
+		.wrapper {
+			opacity: 0;
+		}
+
+		.loaded .cursor,
+		.loaded .fixed-text,
+		.loaded header,
+		.loaded .wrapper {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body class="page--project">
+	<style>
+
+	</style>
+	<div class="cursor">
+		<div class="cursor__ball cursor__ball--big ">
+			<div class="cursor__ball">
+				<svg height="30" width="30">
+					<circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+				</svg>
+			</div>
+		</div>
+
+		<div class="cursor__ball cursor__ball--small">
+			<svg height="10" width="10">
+				<circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+			</svg>
+		</div>
+	</div>
+	<p class="fixed-text">
+		DESIGN ARCHITECTURE MOOD LIGHT COMFORT <span>BÜROE</span>
+	</p>
+	<header data-scroll-sticky data-scroll data-scroll-target="#wrapper" class="header">
+		<div class="header__wrapper">
+			<div class="header__container">
+				<buttun type="button" class="header-back-link">
+					<svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.71429 12.25L12 1.75L10.2857 -7.49338e-08L4.94705e-07 10.5L1.71429 12.25Z" fill="#3E3C3F" />
+						<path d="M4.94705e-07 10.5L10.2857 21L12 19.25L1.71429 8.75L4.94705e-07 10.5Z" fill="#3E3C3F" />
+					</svg>
+				</buttun>
+				<button type="button" class="project-left-btn _project-btn">ПРОЕКТЫ</button>
+				<a href="home.html" class="header__logo">
+					<div class="header__logo-box">
+						<img src="img/logo-dark.svg" alt="Logo image">
+					</div>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><button type="button" class="menu__link _project-btn">ПРОЕКТЫ</button></li>
+							<li class="menu__item"><a href="#about" class="menu__link" data-scroll-to>О НАС</a></li>
+							<li class="menu__item"><a href="/project.html" class="menu__link _project--link">гоооо</a></li>
+							<li class="menu__item"><a href="#services" class="menu__link" data-scroll-to>УСЛУГИ</a></li>
+							<li class="menu__item"><a href="#partners" class="menu__link" data-scroll-to>ПАРТНЕРЫ</a></li>
+							<li class="menu__item"><a href="#contacts" class="menu__link" data-scroll-to>КОНТАКТЫ</a></li>
+						</ul>
+						<div class="lang">
+							<a class="_active" href="#">Ru</a>
+							<span></span>
+							<a href="#">En</a>
+						</div>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</nav>
+				</div>
+			</div>
+			<div class="header__menu-projects projects-menu">
+				<div class="projects-menu__container">
+					<ul class="projects-menu__list">
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">Рестораны</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="project.html" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="home.html" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">отели</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">бутики</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">офисы</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">апартаменты</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">дома</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div class="mobile-menu">
+		<div class="mobile-menu__wrapper">
+			<div class="mobile-menu__item item-mobile-menu item-mobile-menu__main">
+				<div class="item-mobile-menu__inner">
+					<nav>
+						<ul>
+							<li>
+								<button type="button" class="mobile-menu__project-btn">
+									ПРОЕКТЫ
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 12.5163L1.67612 13.6924L13.4373 1.93118L12.2612 0.755059L0.5 12.5163Z" fill="#6D6C69" />
+										<path d="M11.8367 0.692383V13.167H13.5V0.692383H11.8367Z" fill="#6D6C69" />
+										<path d="M1.02538 0.692383V2.35567L13.5 2.35567L13.5 0.692383L1.02538 0.692383Z" fill="#6D6C69" />
+									</svg>
+								</button>
+							</li>
+							<li>
+								<a href="#">
+									О НАС
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 12.5163L1.67612 13.6924L13.4373 1.93118L12.2612 0.755059L0.5 12.5163Z" fill="#6D6C69" />
+										<path d="M11.8367 0.692383V13.167H13.5V0.692383H11.8367Z" fill="#6D6C69" />
+										<path d="M1.02538 0.692383V2.35567L13.5 2.35567L13.5 0.692383L1.02538 0.692383Z" fill="#6D6C69" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									УСЛУГИ
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 12.5163L1.67612 13.6924L13.4373 1.93118L12.2612 0.755059L0.5 12.5163Z" fill="#6D6C69" />
+										<path d="M11.8367 0.692383V13.167H13.5V0.692383H11.8367Z" fill="#6D6C69" />
+										<path d="M1.02538 0.692383V2.35567L13.5 2.35567L13.5 0.692383L1.02538 0.692383Z" fill="#6D6C69" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									ПАРТНЕРЫ
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 12.5163L1.67612 13.6924L13.4373 1.93118L12.2612 0.755059L0.5 12.5163Z" fill="#6D6C69" />
+										<path d="M11.8367 0.692383V13.167H13.5V0.692383H11.8367Z" fill="#6D6C69" />
+										<path d="M1.02538 0.692383V2.35567L13.5 2.35567L13.5 0.692383L1.02538 0.692383Z" fill="#6D6C69" />
+									</svg>
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									КОНТАКТЫ
+									<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M0.5 12.5163L1.67612 13.6924L13.4373 1.93118L12.2612 0.755059L0.5 12.5163Z" fill="#6D6C69" />
+										<path d="M11.8367 0.692383V13.167H13.5V0.692383H11.8367Z" fill="#6D6C69" />
+										<path d="M1.02538 0.692383V2.35567L13.5 2.35567L13.5 0.692383L1.02538 0.692383Z" fill="#6D6C69" />
+									</svg>
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="item-mobile-menu__contacts contacts-mobile-menu">
+						<span class="contacts-mobile-menu__title">КОНТАКТЫ</span>
+						<div class="contacts-mobile-menu__wrapper">
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>ТЕЛЕФОН</span>
+								<a href="tel:79670498199">+7 (967) 049 81 99</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>АДРЕС</span>
+								<a href="#">123 Maple Street, Springfield, IL <br> 62704, USA</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>СОТРУДНИЧЕСТВО</span>
+								<a href="mailto:buroe@studio.com">buroe@studio.com</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>КАРЬЕРА </span>
+								<a href="mailto:buroe@studio.com">buroe@studio.com</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>ОБЩИЕ ВОПРОСЫ</span>
+								<a href="mailto:buroe@studio.com">buroe@studio.com</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="mobile-menu__item item-mobile-menu item-mobile-menu__projects">
+				<div class="item-mobile-menu__inner">
+					<div data-spollers data-one-spoller class="spollers">
+						<details class="spollers__item" data-scroll>
+							<summary class="spollers__title">
+								<span>Рестораны</span>
+								<div class="spollers__icon">
+									<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 9.67347L1.5 0.857147L2.49779e-07 2.32654L9 11.1429L10.5 9.67347Z" fill="#6D6C69" />
+										<path d="M9 11.1429L18 2.32653L16.5 0.857144L7.5 9.67347L9 11.1429Z" fill="#6D6C69" />
+									</svg>
+								</div>
+							</summary>
+							<div class="spollers__body">
+								<nav>
+									<ul>
+										<li>
+											<a href="#">Twins Garden Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Yura Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Miyako Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Teppanyaki Grill Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Uliss Asia</a>
+										</li>
+										<li>
+											<a href="#">Shekong Bar & Tapas</a>
+										</li>
+										<li>
+											<a href="#">Rooftop Standart Private Bar</a>
+										</li>
+										<li>
+											<a href="#">Choice Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Aurora Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Vento Osteria & Crudo</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+						<details class="spollers__item" data-scroll>
+							<summary class="spollers__title">
+								<span>отели</span>
+								<div class="spollers__icon">
+									<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 9.67347L1.5 0.857147L2.49779e-07 2.32654L9 11.1429L10.5 9.67347Z" fill="#6D6C69" />
+										<path d="M9 11.1429L18 2.32653L16.5 0.857144L7.5 9.67347L9 11.1429Z" fill="#6D6C69" />
+									</svg>
+								</div>
+							</summary>
+							<div class="spollers__body">
+								<nav>
+									<ul>
+										<li>
+											<a href="#">Twins Garden Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Yura Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Miyako Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Teppanyaki Grill Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Uliss Asia</a>
+										</li>
+										<li>
+											<a href="#">Shekong Bar & Tapas</a>
+										</li>
+										<li>
+											<a href="#">Rooftop Standart Private Bar</a>
+										</li>
+										<li>
+											<a href="#">Choice Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Aurora Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Vento Osteria & Crudo</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+						<details class="spollers__item" data-scroll>
+							<summary class="spollers__title">
+								<span>бутики</span>
+								<div class="spollers__icon">
+									<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 9.67347L1.5 0.857147L2.49779e-07 2.32654L9 11.1429L10.5 9.67347Z" fill="#6D6C69" />
+										<path d="M9 11.1429L18 2.32653L16.5 0.857144L7.5 9.67347L9 11.1429Z" fill="#6D6C69" />
+									</svg>
+								</div>
+							</summary>
+							<div class="spollers__body">
+								<nav>
+									<ul>
+										<li>
+											<a href="#">Twins Garden Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Yura Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Miyako Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Teppanyaki Grill Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Uliss Asia</a>
+										</li>
+										<li>
+											<a href="#">Shekong Bar & Tapas</a>
+										</li>
+										<li>
+											<a href="#">Rooftop Standart Private Bar</a>
+										</li>
+										<li>
+											<a href="#">Choice Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Aurora Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Vento Osteria & Crudo</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+						<details class="spollers__item" data-scroll>
+							<summary class="spollers__title">
+								<span>офисы</span>
+								<div class="spollers__icon">
+									<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 9.67347L1.5 0.857147L2.49779e-07 2.32654L9 11.1429L10.5 9.67347Z" fill="#6D6C69" />
+										<path d="M9 11.1429L18 2.32653L16.5 0.857144L7.5 9.67347L9 11.1429Z" fill="#6D6C69" />
+									</svg>
+								</div>
+							</summary>
+							<div class="spollers__body">
+								<nav>
+									<ul>
+										<li>
+											<a href="#">Twins Garden Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Yura Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Miyako Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Teppanyaki Grill Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Uliss Asia</a>
+										</li>
+										<li>
+											<a href="#">Shekong Bar & Tapas</a>
+										</li>
+										<li>
+											<a href="#">Rooftop Standart Private Bar</a>
+										</li>
+										<li>
+											<a href="#">Choice Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Aurora Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Vento Osteria & Crudo</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+						<details class="spollers__item" data-scroll>
+							<summary class="spollers__title">
+								<span>апартаменты</span>
+								<div class="spollers__icon">
+									<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 9.67347L1.5 0.857147L2.49779e-07 2.32654L9 11.1429L10.5 9.67347Z" fill="#6D6C69" />
+										<path d="M9 11.1429L18 2.32653L16.5 0.857144L7.5 9.67347L9 11.1429Z" fill="#6D6C69" />
+									</svg>
+								</div>
+							</summary>
+							<div class="spollers__body">
+								<nav>
+									<ul>
+										<li>
+											<a href="#">Twins Garden Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Yura Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Miyako Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Teppanyaki Grill Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Uliss Asia</a>
+										</li>
+										<li>
+											<a href="#">Shekong Bar & Tapas</a>
+										</li>
+										<li>
+											<a href="#">Rooftop Standart Private Bar</a>
+										</li>
+										<li>
+											<a href="#">Choice Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Aurora Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Vento Osteria & Crudo</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+						<details class="spollers__item" data-scroll>
+							<summary class="spollers__title">
+								<span>дома</span>
+								<div class="spollers__icon">
+									<svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M10.5 9.67347L1.5 0.857147L2.49779e-07 2.32654L9 11.1429L10.5 9.67347Z" fill="#6D6C69" />
+										<path d="M9 11.1429L18 2.32653L16.5 0.857144L7.5 9.67347L9 11.1429Z" fill="#6D6C69" />
+									</svg>
+								</div>
+							</summary>
+							<div class="spollers__body">
+								<nav>
+									<ul>
+										<li>
+											<a href="#">Twins Garden Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Yura Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Miyako Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Teppanyaki Grill Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Uliss Asia</a>
+										</li>
+										<li>
+											<a href="#">Shekong Bar & Tapas</a>
+										</li>
+										<li>
+											<a href="#">Rooftop Standart Private Bar</a>
+										</li>
+										<li>
+											<a href="#">Choice Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Aurora Restaurant</a>
+										</li>
+										<li>
+											<a href="#">Vento Osteria & Crudo</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						</details>
+					</div>
+					<div class="item-mobile-menu__contacts contacts-mobile-menu">
+						<span class="contacts-mobile-menu__title">КОНТАКТЫ</span>
+						<div class="contacts-mobile-menu__wrapper">
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>ТЕЛЕФОН</span>
+								<a href="tel:79670498199">+7 (967) 049 81 99</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>АДРЕС</span>
+								<a href="#">123 Maple Street, Springfield, IL 62704, USA</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>СОТРУДНИЧЕСТВО</span>
+								<a href="mailto:buroe@studio.com">buroe@studio.com</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>КАРЬЕРА </span>
+								<a href="mailto:buroe@studio.com">buroe@studio.com</a>
+							</div>
+							<div class="contacts-mobile-menu__item item-contacts-mobile-menu">
+								<span>ОБЩИЕ ВОПРОСЫ</span>
+								<a href="mailto:buroe@studio.com">buroe@studio.com</a>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="wrapper" data-scroll-container class="wrapper">
+		<main class="page">
+			<section class="pnf">
+				<span class="pnf__uptitle">404</span>
+				<h1 class="pnf__title">СТРАНИЦА НЕ НАЙДЕНА</h1>
+				<p class="pnf__info">Ошибка — тоже элемент процесса. Просто поворот к другому решению.</p>
+				<div class="pnf__actions">
+					<a href="#contacts" class="link" data-scroll data-scroll-to>
+						НА ГЛАВНУЮ
+						<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M0.500854 12.4381L1.67636 13.6136L13.4314 1.85851L12.2559 0.683005L0.500854 12.4381Z" fill="#6D6C69" />
+							<path d="M11.8317 0.620362V13.0885H13.4941V0.620362H11.8317Z" fill="#6D6C69" />
+							<path d="M1.02596 0.620361V2.28278H13.4941L13.4941 0.620362L1.02596 0.620361Z" fill="#6D6C69" />
+						</svg>
+					</a>
+				</div>
+			</section>
+		</main>
+		<footer></footer>
+	</div>
+	<script src="js/app.min.js?_v=20250606163936"></script>
+</body>
+
+</html>

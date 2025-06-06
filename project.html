@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Project</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20250606163936">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			overflow: hidden;
+			background-color: #e0e0e0;
+		}
+
+		.cursor,
+		.fixed-text,
+		header,
+		.wrapper {
+			opacity: 0;
+		}
+
+		.loaded .cursor,
+		.loaded .fixed-text,
+		.loaded header,
+		.loaded .wrapper {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body class="page--project">
+
+
+	<div class="cursor">
+		<div class="cursor__ball cursor__ball--big ">
+			<div class="cursor__ball">
+				<svg height="30" width="30">
+					<circle cx="15" cy="15" r="12" stroke-width="0"></circle>
+				</svg>
+			</div>
+		</div>
+
+		<div class="cursor__ball cursor__ball--small">
+			<svg height="10" width="10">
+				<circle cx="5" cy="5" r="4" stroke-width="0"></circle>
+			</svg>
+		</div>
+	</div>
+	<p class="fixed-text">
+		DESIGN ARCHITECTURE MOOD LIGHT COMFORT BÜROE
+		<svg width="14" height="15" viewBox="0 0 14 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<path d="M5.12854 10.8246V4.01514H7.75773C7.82394 4.01514 7.89802 4.01829 7.97998 4.02459C8.0651 4.02775 8.15022 4.0372 8.23534 4.05297C8.59157 4.10656 8.89264 4.23108 9.13853 4.42654C9.38758 4.61884 9.57515 4.86159 9.70125 5.15477C9.83051 5.44795 9.89513 5.77266 9.89513 6.12889C9.89513 6.64275 9.75958 7.08883 9.48846 7.46713C9.21734 7.84544 8.82959 8.08345 8.32518 8.18118L8.08402 8.23792H5.82367V10.8246H5.12854ZM9.25202 10.8246L7.90905 8.0535L8.57581 7.79815L10.0512 10.8246H9.25202ZM5.82367 7.5759H7.73882C7.79556 7.5759 7.86177 7.57274 7.93743 7.56644C8.01309 7.56013 8.08717 7.5491 8.15968 7.53334C8.39296 7.4829 8.58369 7.38675 8.73186 7.24488C8.88318 7.10302 8.99509 6.93436 9.0676 6.7389C9.14326 6.54345 9.18109 6.34011 9.18109 6.12889C9.18109 5.91768 9.14326 5.71434 9.0676 5.51888C8.99509 5.32028 8.88318 5.15004 8.73186 5.00818C8.58369 4.86631 8.39296 4.77016 8.15968 4.71972C8.08717 4.70396 8.01309 4.6945 7.93743 4.69135C7.86177 4.68505 7.79556 4.68189 7.73882 4.68189H5.82367V7.5759Z" fill="#3E3C3F"></path>
+			<circle cx="7.31638" cy="7.45213" r="6.25498" stroke="#3E3C3F" stroke-width="0.625498"></circle>
+		</svg>
+	</p>
+	<header data-scroll-sticky data-scroll data-scroll-target="#wrapper" class="header">
+		<div class="header__wrapper">
+			<div class="header__container">
+				<buttun type="button" class="header-back-link">
+					<svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1.71429 12.25L12 1.75L10.2857 -7.49338e-08L4.94705e-07 10.5L1.71429 12.25Z" fill="#3E3C3F" />
+						<path d="M4.94705e-07 10.5L10.2857 21L12 19.25L1.71429 8.75L4.94705e-07 10.5Z" fill="#3E3C3F" />
+					</svg>
+				</buttun>
+				<button type="button" class="project-left-btn _project-btn">ПРОЕКТЫ</button>
+				<a href="home.html" class="header__logo">
+					<div class="header__logo-box">
+						<img src="img/logo-dark.svg" alt="Logo image">
+					</div>
+				</a>
+				<div class="header__menu menu">
+					<nav class="menu__body">
+						<ul class="menu__list">
+							<li class="menu__item"><button type="button" class="menu__link _project-btn">ПРОЕКТЫ</button></li>
+							<li class="menu__item"><a href="#about" class="menu__link" data-scroll-to>О НАС</a></li>
+							<li class="menu__item"><a href="/project.html" class="menu__link _project--link">гоооо</a></li>
+							<li class="menu__item"><a href="#services" class="menu__link" data-scroll-to>УСЛУГИ</a></li>
+							<li class="menu__item"><a href="#partners" class="menu__link" data-scroll-to>ПАРТНЕРЫ</a></li>
+							<li class="menu__item"><a href="#contacts" class="menu__link" data-scroll-to>КОНТАКТЫ</a></li>
+						</ul>
+						<div class="lang">
+							<a class="_active" href="#">Ru</a>
+							<span></span>
+							<a href="#">En</a>
+						</div>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</nav>
+				</div>
+			</div>
+			<div class="header__menu-projects projects-menu">
+				<div class="projects-menu__container">
+					<ul class="projects-menu__list">
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">Рестораны</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="project.html" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="home.html" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">отели</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">бутики</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">офисы</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">апартаменты</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+						<li class="projects-menu__item">
+							<button type="button" class="projects-menu__button">дома</button>
+							<ul class="projects-menu__sublist">
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Twins Garden Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Yura Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Miyako Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Teppanyaki Grill Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Uliss Asia</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Shekong Bar & Tapas</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Rooftop Standart Private Bar</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Choice Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Aurora Restaurant</a>
+								</li>
+								<li class="projects-menu__subitem">
+									<a href="#" class="projects-menu__sublink">Vento Osteria & Crudo</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<div id="wrapper" data-scroll-container class="wrapper">
+		<main class="page">
+			<section class="project">
+				<div class="project__container">
+					<div class="project__body">
+						<h1 class="project__title">Twins Garden Restaurant
+							<span></span>
+						</h1>
+						<div class="project__wrapper">
+							<div class="project__bar bar-project">
+								<div class="bar-project__info-wrapper">
+									<ul class="bar-project__info info-list scrollable-block" data-da=".target-charactiristic, 991.98">
+										<li>
+											<span class="info-list__key">Location:</span>
+											<span class="info-list__value">Newmarket, Auckland</span>
+										</li>
+										<li>
+											<span class="info-list__key">Category:</span>
+											<span class="info-list__value">Commercial, workplace</span>
+										</li>
+										<li>
+											<span class="info-list__key">Date:</span>
+											<span class="info-list__value">2023</span>
+										</li>
+										<li>
+											<span class="info-list__key">Area:</span>
+											<span class="info-list__value">716 sqm</span>
+										</li>
+										<li>
+											<span class="info-list__key">Awards:</span>
+											<span class="info-list__value">
+												BEST AWARDS 2022 - Gold Pin - Offices & Workplace Environments
+											</span>
+										</li>
+
+									</ul>
+								</div>
+								<div class="bar-project__nav-wrapper">
+									<nav class="scrollable-block" data-da=".target-more, 991.98">
+										<ul>
+
+											<li>
+												<a href="#">Yura Restaurant</a>
+											</li>
+											<li>
+												<a href="#">Miyako Restaurant</a>
+											</li>
+											<li>
+												<a href="#">Teppanyaki Grill Restaurant</a>
+											</li>
+											<li>
+												<a href="#">Uliss Asia</a>
+											</li>
+											<li>
+												<a href="#">Shekong Bar & Tapas</a>
+											</li>
+											<li>
+												<a href="#">Rooftop Standart Private Bar</a>
+											</li>
+											<li>
+												<a href="#">Choice Restaurant</a>
+											</li>
+											<li>
+												<a href="#">Aurora Restaurant</a>
+											</li>
+											<li>
+												<a href="#">Vento Osteria & Crudo</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							<div class="bar-project__content">
+								<!-- Оболонка слайдера -->
+								<div class="project__slider swiper" data-da=".target-slider, 991.98">
+									<!-- Частина слайдера, що рухається -->
+									<div class="project-slider__wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<div class="project__slide swiper-slide one-slide">
+											<div class="one-slide__picture--01">
+												<img src="img/project/01.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+											<div class="one-slide__picture--02">
+												<img src="img/project/02.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="project__slide swiper-slide two-slide">
+											<div class="two-slide__picture--01">
+												<img src="img/project/03.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+											<div class="two-slide__picture--02">
+												<img src="img/project/04.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+											<div class="two-slide__picture--03">
+												<img src="img/project/05.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="project__slide swiper-slide three-slide">
+											<div class="three-slide__picture">
+												<img src="img/project/06.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-pre loader"></div>
+											</div>
+
+										</div>
+										<div class="project__slide swiper-slide four-slide">
+											<div class="four-slide__picture--01">
+												<img src="img/project/07.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+											<div class="four-slide__picture--02">
+												<img src="img/project/08.webp" alt="image" loading="lazy">
+												<div class="swiper-lazy-preloader">
+													<div class="form-loader">
+														<div class="spinner"></div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<button type="button" class="project__slider-button-prev">
+										<svg width="21" height="106" viewBox="0 0 21 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g style="mix-blend-mode:exclusion">
+												<path d="M19 105L2.99999 53.0006L19 1" stroke="#E0E0E0" stroke-width="4" stroke-miterlimit="10" />
+											</g>
+										</svg>
+
+									</button>
+									<button type="button" class="project__slider-button-next">
+										<svg width="21" height="106" viewBox="0 0 21 106" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g style="mix-blend-mode:exclusion">
+												<path d="M2 0.999521L18 52.9989L2 105" stroke="#E0E0E0" stroke-width="4" stroke-miterlimit="10" />
+											</g>
+										</svg>
+									</button>
+								</div>
+								<div class="project--info" data-da=".target-info, 991.98">
+									<p>At Buroe, we believe that every space has its own unique story, which is why our goal is
+										to create interiors that are not just beautiful but also inspiring, energizing, and
+										harmonious, infusing each project with timeless elegance—because for us, elegance is not a
+										passing trend but the essence of our work, shaping spaces that become an extension of your
+										personality, where you set the tone, and we erase the boundary between dream and reality.
+									</p>
+									<p>At Buroe, we believe that every space has its own unique story, which is why our goal is
+										to create interiors that are not just beautiful but also inspiring, energizing, and
+										harmonious, infusing each project with timeless elegance—because for us, elegance is not a
+										passing trend but.</p>
+								</div>
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</section>
+			<section class="project--slim">
+				<div class="project--slim__container">
+					<div class="breadcrumb">
+						<ul>
+							<li><a href="#">Home</a></li>
+							<li><a href="#">Twins Garden Restaurant</a></li>
+						</ul>
+					</div>
+					<div class="project--slim__title">Twins Garden Restaurant</div>
+
+					<div class="target-slider">
+
+					</div>
+					<div class="target-charactiristic"></div>
+					<div class="project--slim__box">
+						<div class="_mobile-title">About project</div>
+						<div class="target-info"></div>
+					</div>
+					<div class="project--slim__box">
+						<div class="_mobile-title">Другие проекты</div>
+						<div class="target-more"></div>
+					</div>
+				</div>
+			</section>
+			<section class="contacts" id="contacts">
+				<span class="line _top" data-scroll></span>
+				<div class="contacts__container _content-box">
+					<div class="contacts__inner">
+						<div class="contacts__item">
+							<h2 class="contacts__title _title" data-scroll>КОНТАКТЫ</h2>
+							<ul>
+								<li>
+									<span data-scroll>ТЕЛЕФОН</span>
+									<a href="tel:79670498199" data-scroll>+7 (967) 049 81 99</a>
+								</li>
+								<li>
+									<span data-scroll>АДРЕС</span>
+									<a target="_blank" data-scroll href="https://www.google.com/maps/place/123+Maple+Ct,+Springfield,+IL+62704,+%D0%A1%D0%BF%D0%BE%D0%BB%D1%83%D1%87%D0%B5%D0%BD%D1%96+%D0%A8%D1%82%D0%B0%D1%82%D0%B8+%D0%90%D0%BC%D0%B5%D1%80%D0%B8%D0%BA%D0%B8/@39.767554,-89.6697968,17z/data=!3m1!4b1!4m5!3m4!1s0x887538fc7bfe3fb7:0xd5c0bdd9b3046cdb!8m2!3d39.767554!4d-89.6672165?entry=ttu&g_ep=EgoyMDI1MDQyMy4wIKXMDSoASAFQAw%3D%3D">123
+										Maple Street, Springfield, IL 62704, USA</a>
+								</li>
+								<li>
+									<span data-scroll>СОТРУДНИЧЕСТВО</span>
+									<a href="mailto:buroe@studio.com" data-scroll>buroe@studio.com</a>
+								</li>
+								<li>
+									<span data-scroll>КАРЬЕРА</span>
+									<a href="mailto:buroe@studio.com" data-scroll>buroe@studio.com</a>
+								</li>
+								<li>
+									<span data-scroll>ОБЩИЕ ВОПРОСЫ</span>
+									<a href="mailto:buroe@studio.com" data-scroll>buroe@studio.com</a>
+								</li>
+							</ul>
+						</div>
+						<div class="contacts__item">
+							<h2 class="contacts__title _title" data-scroll>СВЯЗАТЬСЯ C VALTS</h2>
+							<form action="files/sendmail/sendmail.php" data-popup-message=".form-send" data-dev method="POST" class="contacts-form">
+								<div class="form-loader">
+									<div class="spinner"></div>
+								</div>
+								<div class="contacts-form__item item-contacts-form" data-scroll>
+									<span class="error-el">
+										Введите свое имя!
+										<svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M7.92105 8.33185L4.84211 5.2529L5.18421 4.91079L8.26316 7.98974L7.92105 8.33185Z" fill="#6D6C69" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M4.84211 8.095L7.92105 5.01606L8.26316 5.35816L5.18421 8.43711L4.84211 8.095Z" fill="#6D6C69" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M9.40789 9.58184C11.0139 7.97586 11.0139 5.37204 9.40789 3.76606C7.80191 2.16007 5.19809 2.16007 3.59211 3.76606C1.98612 5.37204 1.98612 7.97586 3.59211 9.58185C5.19809 11.1878 7.80191 11.1878 9.40789 9.58184ZM9.75 9.92395C11.5449 8.12902 11.5449 5.21888 9.75 3.42395C7.95507 1.62902 5.04493 1.62902 3.25 3.42395C1.45507 5.21888 1.45507 8.12902 3.25 9.92395C5.04493 11.7189 7.95507 11.7189 9.75 9.92395Z" fill="#6D6C69" />
+										</svg>
+									</span>
+									<label for="name">ИМЯ
+
+									</label>
+									<input data-required id="name" autocomplete="off" type="text" name="form[]" placeholder="" class="input">
+								</div>
+								<div class="contacts-form__item item-contacts-form" data-scroll>
+									<span class="error-el">
+										Неверный адрес электронной почты!
+										<svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M7.92105 8.33185L4.84211 5.2529L5.18421 4.91079L8.26316 7.98974L7.92105 8.33185Z" fill="#6D6C69" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M4.84211 8.095L7.92105 5.01606L8.26316 5.35816L5.18421 8.43711L4.84211 8.095Z" fill="#6D6C69" />
+											<path fill-rule="evenodd" clip-rule="evenodd" d="M9.40789 9.58184C11.0139 7.97586 11.0139 5.37204 9.40789 3.76606C7.80191 2.16007 5.19809 2.16007 3.59211 3.76606C1.98612 5.37204 1.98612 7.97586 3.59211 9.58185C5.19809 11.1878 7.80191 11.1878 9.40789 9.58184ZM9.75 9.92395C11.5449 8.12902 11.5449 5.21888 9.75 3.42395C7.95507 1.62902 5.04493 1.62902 3.25 3.42395C1.45507 5.21888 1.45507 8.12902 3.25 9.92395C5.04493 11.7189 7.95507 11.7189 9.75 9.92395Z" fill="#6D6C69" />
+										</svg>
+									</span>
+									<label for="mail">ПОЧТА
+
+									</label>
+									<input data-required="email" id="mail" autocomplete="off" type="text" name="form[]" placeholder="" class="input">
+								</div>
+								<div class="contacts-form__item item-contacts-form" data-scroll>
+									<label for="phone">ТЕЛЕФОН</label>
+									<input id="phone" autocomplete="off" type="text" name="form[]" placeholder="" class="input">
+								</div>
+								<div class="contacts-form__item item-contacts-form _sel" data-scroll>
+									<select name="form[]" data-class-modif="form" data-speed="300">
+										<option value="" selected>ТИП ЗАПРОСА</option>
+										<option value="2">Разработка концепции</option>
+										<option value="3">3D визуализация</option>
+										<option value="4">Технические чертежи</option>
+										<option value="5">Авторский надзор</option>
+										<option value="6">Декорирование пространства</option>
+									</select>
+								</div>
+								<div class="contacts-form__item item-contacts-form _fw _txt" data-scroll>
+									<label for="message">СООБЩЕНИЕ</label>
+									<textarea id="message" autocomplete="off" name="form[]" placeholder="" class="input textarea-inp"></textarea>
+								</div>
+								<div class="contacts-form__actions" data-scroll>
+									<button type="submit" class="button link">
+										ОТПРАВИТЬ
+										<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M0.500854 12.4381L1.67636 13.6136L13.4314 1.85851L12.2559 0.683005L0.500854 12.4381Z" fill="#6D6C69" />
+											<path d="M11.8317 0.620362V13.0885H13.4941V0.620362H11.8317Z" fill="#6D6C69" />
+											<path d="M1.02596 0.620361V2.28278H13.4941L13.4941 0.620362L1.02596 0.620361Z" fill="#6D6C69" />
+										</svg>
+									</button>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<span class="line _top" data-scroll></span>
+			<div class="footer__container" data-scroll>
+				<div class="footer__body">
+					<a href="#main" data-scroll-to class="footer__logo">
+						<svg width="132" height="49" viewBox="0 0 132 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M30.0253 5.00589C31.2499 5.00589 32.2436 4.01044 32.2436 2.82276C32.2436 1.63497 31.2499 0.639648 30.0253 0.639648C28.7633 0.639648 27.807 1.59625 27.807 2.78388C27.807 4.01044 28.7633 5.00589 30.0253 5.00589ZM39.6819 5.00589C40.9064 5.00589 41.9003 4.01044 41.9003 2.82276C41.9003 1.63497 40.9064 0.639648 39.6819 0.639648C38.4587 0.639648 37.4636 1.59625 37.4636 2.78388C37.4636 4.01044 38.4587 5.00589 39.6819 5.00589ZM42.0635 24.0835C42.0635 29.3315 39.0422 32.4726 34.8349 32.4726C30.437 32.4726 27.645 29.1018 27.645 24.0835V8.18571H24.3169V24.3133C24.3169 31.4759 28.6001 35.6137 34.8349 35.6137C41.2978 35.6137 45.3903 31.2849 45.3903 24.3133V8.18571H42.0635V24.0835ZM13.7227 21.0947V21.0186C16.6681 19.9845 18.0447 17.4567 18.0447 14.8125C18.0447 10.1777 14.5644 8.18571 9.28608 8.18571H0.41275V35.384H10.3185C16.4773 35.384 19.0261 32.319 19.0261 27.9902C19.0261 24.0448 16.8974 21.7467 13.7227 21.0947ZM3.74088 11.2119L8.94188 11.1731C12.9196 11.1731 14.6405 12.8592 14.6405 15.4646C14.6405 18.7579 12.1166 19.9083 9.32474 19.9083H3.74088V11.2119ZM10.0131 32.3578H3.74088V22.8196H9.51544C13.7227 22.8196 15.5445 24.658 15.5445 27.723C15.5445 30.8641 13.5707 32.3578 10.0131 32.3578ZM63.5585 24.6967C67.8417 23.8149 70.3283 21.1723 70.3283 16.6135C70.3283 11.7864 67.6124 8.18571 61.3403 8.18571H51.7012V35.384H55.0294V25.0028H59.8862L67.0761 35.384H71.0539L63.5585 24.6967ZM55.0294 21.9766V11.2119H60.8813C64.6284 11.2119 66.8853 13.0503 66.8853 16.5361C66.8853 19.6785 64.9352 21.9766 60.4225 21.9766H55.0294ZM87.8069 7.91712C79.89 7.91712 74.1527 13.7023 74.1527 21.7841C74.1527 29.8673 79.89 35.6137 87.8069 35.6137C95.4182 35.6137 101.346 30.0598 101.346 21.7841C101.346 13.4724 95.4182 7.91712 87.8069 7.91712ZM87.8069 32.4726C81.9162 32.4726 77.6329 27.914 77.6329 21.7841C77.6329 15.6168 81.9162 11.0582 87.8069 11.0582C93.4294 11.0582 97.866 15.4646 97.866 21.7841C97.866 28.0676 93.4294 32.4726 87.8069 32.4726ZM113.485 47.3644H113.475L111.438 41.769H110.538L113.102 48.5722H113.849L116.413 41.769H115.523L113.485 47.3644ZM120.35 44.7297L120.332 44.7391C119.997 44.1739 119.394 43.8479 118.706 43.8479C117.385 43.8479 116.438 44.8928 116.438 46.2729C116.438 47.6904 117.424 48.6297 118.706 48.6297C119.461 48.6297 120.034 48.285 120.369 47.7292H120.38V48.5722H121.125V43.9054H120.35V44.7297ZM118.82 47.9203C117.863 47.9203 117.222 47.2121 117.222 46.2729C117.222 45.2374 117.94 44.5573 118.82 44.5573C119.738 44.5573 120.38 45.3149 120.38 46.2729C120.38 47.2589 119.681 47.9203 118.82 47.9203ZM67.9699 45.5634H70.6964V44.8059H67.9699V42.5266H71.2994V41.769H67.1376V48.5722H71.4995V47.8147H67.9699V45.5634ZM106.209 44.7297L106.191 44.7391C105.856 44.1739 105.253 43.8479 104.564 43.8479C103.244 43.8479 102.297 44.8928 102.297 46.2729C102.297 47.6904 103.283 48.6297 104.564 48.6297C105.32 48.6297 105.893 48.285 106.228 47.7292H106.239V48.5722H106.984V43.9054H106.209V44.7297ZM104.679 47.9203C103.722 47.9203 103.081 47.2121 103.081 46.2729C103.081 45.2374 103.799 44.5573 104.679 44.5573C105.597 44.5573 106.239 45.3149 106.239 46.2729C106.239 47.2589 105.54 47.9203 104.679 47.9203ZM129.559 45.832C129.052 45.6503 128.679 45.4672 128.679 45.1039C128.679 44.7484 129.032 44.5387 129.397 44.5387C129.798 44.5387 130.229 44.6629 130.63 45.037L131.032 44.4238C130.516 44.0015 129.99 43.8479 129.426 43.8479C128.546 43.8479 127.895 44.3851 127.895 45.1039C127.895 45.9562 128.536 46.2635 129.291 46.5307C129.97 46.7805 130.401 46.8954 130.401 47.3069C130.401 47.6624 130.076 47.9403 129.511 47.9403C128.86 47.9403 128.449 47.7292 128.085 47.3751L127.693 47.9683C128.143 48.3611 128.736 48.6297 129.511 48.6297C130.63 48.6297 131.185 48.0258 131.185 47.2977C131.195 46.3877 130.545 46.2155 129.559 45.832ZM126.098 47.9016C125.658 47.9016 125.534 47.633 125.534 47.0678V44.576H127.073V43.9054H125.534V42.2286L124.759 42.3155V47.1827C124.759 48.122 125.141 48.6297 125.963 48.6297C126.518 48.6297 126.834 48.4961 127.093 48.3424L126.891 47.6624C126.662 47.7866 126.375 47.9016 126.098 47.9016ZM122.577 48.5722H123.352V41.5191H122.577V48.5722ZM99.5729 43.8479C98.8554 43.8479 98.243 44.1833 97.8788 44.7484H97.8696V43.9054H97.0945V48.5722H97.8696V46.2435C97.8696 45.1894 98.4445 44.5573 99.3235 44.5573C100.004 44.5573 100.472 44.9315 100.472 46.023V48.5722H101.247V45.8026C101.247 44.4706 100.577 43.8479 99.5729 43.8479ZM76.7006 43.9054H75.7627L73.4764 46.4639L73.4671 46.4546V41.7108H72.6921V48.5722H73.4671V47.4126L74.4236 46.3784L75.8308 48.5722H76.7206L74.9597 45.832L76.7006 43.9054ZM95.2017 41.9413C94.8869 41.9413 94.6375 42.1913 94.6375 42.4972C94.6375 42.8044 94.8869 43.0529 95.2017 43.0529C95.5178 43.0529 95.7672 42.8044 95.7672 42.4972C95.7672 42.1913 95.5178 41.9413 95.2017 41.9413ZM92.171 44.7591H92.1522V43.9054H91.3772V48.5722H92.1522V46.321C92.1522 45.3817 92.6779 44.7016 93.5676 44.7016C93.645 44.7016 93.7597 44.7111 93.8744 44.7204V43.8572C93.8064 43.8479 93.749 43.8479 93.6823 43.8479C93.042 43.8479 92.5057 44.1926 92.171 44.7591ZM88.0985 43.8479C86.7685 43.8479 85.8027 44.8353 85.8027 46.2435C85.8027 47.6717 86.7791 48.6297 88.1559 48.6297C89.0936 48.6297 89.6778 48.2756 90.0794 47.7572L89.5337 47.2977C89.247 47.6517 88.8068 47.9203 88.1851 47.9203C87.3048 47.9203 86.6926 47.3457 86.5871 46.4732H90.222C90.222 46.4158 90.2421 46.2822 90.2421 46.158C90.2421 44.8258 89.371 43.8479 88.0985 43.8479ZM86.6058 45.8413C86.7499 45.0464 87.3434 44.5573 88.0891 44.5573C88.8548 44.5573 89.3523 45.0745 89.467 45.8413H86.6058ZM94.8094 48.5722H95.5844V43.9054H94.8094V48.5722ZM81.0132 44.7297L80.9945 44.7391C80.6597 44.1739 80.0568 43.8479 79.3685 43.8479C78.0479 43.8479 77.1007 44.8928 77.1007 46.2729C77.1007 47.6904 78.0865 48.6297 79.3685 48.6297C80.1234 48.6297 80.697 48.285 81.0318 47.7292H81.0426V48.5722H81.7882V43.9054H81.0132V44.7297ZM79.4832 47.9203C78.5254 47.9203 77.885 47.2121 77.885 46.2729C77.885 45.2374 78.6027 44.5573 79.4832 44.5573C80.4008 44.5573 81.0426 45.3149 81.0426 46.2729C81.0426 47.2589 80.3435 47.9203 79.4832 47.9203ZM84.3128 47.9016C83.8725 47.9016 83.7485 47.633 83.7485 47.0678V44.576H85.2878V43.9054H83.7485V42.2286L82.9735 42.3155V47.1827C82.9735 48.122 83.3563 48.6297 84.1779 48.6297C84.7329 48.6297 85.049 48.4961 85.3079 48.3424L85.1064 47.6624C84.8771 47.7866 84.5902 47.9016 84.3128 47.9016ZM126.359 27.9936C124.321 31.1951 121.342 32.5247 118.198 32.5247C113.052 32.5247 109.185 28.7424 108.536 23.4361H129.405V23.4253H131.111C131.158 22.9073 131.185 22.3784 131.185 21.8362C131.185 13.5246 125.499 7.96926 118.198 7.96926C110.603 7.96926 105.1 13.7544 105.1 21.8362C105.1 29.9194 110.603 35.6658 118.198 35.6658C122.399 35.6658 126.044 33.8068 128.733 30.0004L126.359 27.9936ZM118.198 11.1103C123.175 11.1103 127.18 14.8643 127.77 20.4099H108.517C109.099 14.9796 112.994 11.1103 118.198 11.1103ZM126.359 27.9936C126.362 27.989 126.365 27.9848 126.368 27.9802L126.359 27.9936Z" fill="#5F6A73" />
+						</svg>
+					</a>
+					<nav>
+						<ul>
+							<li>
+								<a href="#" class="_project-btn">ПРОЕКТЫ</a>
+							</li>
+							<li>
+								<a href="#about" data-scroll-to>О НАС</a>
+							</li>
+							<li>
+								<a href="#services" data-scroll-to>УСЛУГИ</a>
+							</li>
+							<li>
+								<a href="#partners" data-scroll-to>ПАРТНЕРЫ</a>
+							</li>
+							<li>
+								<a href="#contacts" data-scroll-to>КОНТАКТЫ</a>
+							</li>
+						</ul>
+						<div class="lang">
+							<a class="_active" href="#">Ru</a>
+							<span></span>
+							<a href="#">En</a>
+						</div>
+					</nav>
+				</div>
+				<div class="footer__copyright">
+					<p>© 2025 Buroe All right reserved.</p>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div id="popup" aria-hidden="true" class="popup form-send">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text">
+					<div class="form-send__body">
+						<div class="form-send__title">Ваша заявка успешно отправлена.</div>
+						<div class="form-send__info">Мы свяжемся с вами в ближайшее время.</div>
+						<button data-close type="button" class="popup__close link">
+							ЗАКРЫТЬ
+							<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.500854 12.4381L1.67636 13.6136L13.4314 1.85851L12.2559 0.683005L0.500854 12.4381Z" fill="#6D6C69"></path>
+								<path d="M11.8317 0.620362V13.0885H13.4941V0.620362H11.8317Z" fill="#6D6C69"></path>
+								<path d="M1.02596 0.620361V2.28278H13.4941L13.4941 0.620362L1.02596 0.620361Z" fill="#6D6C69">
+								</path>
+							</svg>
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup" aria-hidden="true" class="popup form-send-request">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__text">
+					<div class="form-send__body">
+						<div class="form-send__title">Ваша заявка успешно отправлена.</div>
+						<div class="form-send__info">Мы свяжемся с вами в ближайшее время.</div>
+						<a href="#" class="popup__close link">
+							Главная страница
+							<svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M0.500854 12.4381L1.67636 13.6136L13.4314 1.85851L12.2559 0.683005L0.500854 12.4381Z" fill="#6D6C69"></path>
+								<path d="M11.8317 0.620362V13.0885H13.4941V0.620362H11.8317Z" fill="#6D6C69"></path>
+								<path d="M1.02596 0.620361V2.28278H13.4941L13.4941 0.620362L1.02596 0.620361Z" fill="#6D6C69">
+								</path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20250606163936"></script>
+</body>
+
+</html>
